@@ -636,3 +636,30 @@
     font-size: 1.1rem;
     line-height: 2;
 }
+.footer{
+    background: #d33a2c;
+    display: flex;
+    justify-content: center;
+}
+.footer .footer-container{
+    width: 100%;
+}
+.footer .footer-container .footer-box{
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+.footer-container .footer-box .footer-head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+.footer-container .footer-box .columna{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    text-align: justify;
+}
+
