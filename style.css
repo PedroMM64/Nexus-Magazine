@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
 }
 .nav{
     background: #d33a2c;
@@ -648,18 +649,26 @@
     color: #fff;
     padding: 2rem 0;
     text-align: center;
+    width: 100%;
 }
 .footer-container .footer-box .footer-head{
     font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
     font-weight: 600;
 }
-.footer-container .footer-box .columna{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    overflow: hidden;
-    text-align: justify;
+.footer-container .footer-box .fila-columna{
+    box-sizing: border-box;
 }
-
+.footer-box .fila-columna p{
+    display: flex;
+    padding: 0 15rem;
+    font-size: 25px;
+}
+.link-referencia{
+    color: #7cff77;
+}
+.footer-container .footer-box .footer-text{
+    font-size: 18px;
+    font-family: "Karla", sans-serif;
+    font-weight: 600;
+}
