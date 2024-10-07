@@ -587,7 +587,7 @@
     padding: 1.5rem 0 4rem 0;
     font-size: 28px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 500;
+    font-weight: 500;
     text-align: center;
 }
 .anuncio-grande-container .anuncio-grande-box .anuncio-grande-boton{
@@ -680,10 +680,7 @@
         display: none;
     }
 }
-
-
-
-@media only screen and (min-width: 1025px) and (max-width: 1500px) {
+@media only screen and (min-width: 1401px) and (max-width: 1500px) {
     .nav-box .nav-links a{
         font-size: 1em;
         font-weight: 600;
@@ -727,4 +724,143 @@
     .usuario-fav .usuario-fav-container {
         padding: 2rem 5rem;
     }
+}
+@media only screen and (min-width: 769px) and (max-width: 1400px) {
+    .header .header-container {
+        padding: 2rem 3rem;
+    }
+    .nav-box .nav-links a{
+        font-size: 1em;
+        font-weight: 500;
+        padding: 1rem 0.4rem;
+        text-align: center;
+    }
+    .nav-container .nav-box .nav-search {
+        padding: 0.1rem 0.3rem;
+    }
+    .nav-search .nav-search-box .img-search {
+        width: 20px;
+        height: auto;
+    }
+    .nav-search .nav-search-box .input-search {
+        padding: 0.7rem 0.5rem;
+        font-size: 1rem;
+    }
+    .cursos .cursos-container .cursos-box {
+        padding: 1.5rem;
+    }
+    .cursos-container .cursos-box .cursos-title{
+        font-size: 1.8rem;
+    }
+    .cursos-container .cursos-box .cursos-text{
+        font-size: 1.3rem;
+        line-height: 2;
+        margin: 1.5rem 0;
+    }
+    .cursos-container .cursos-box .cursos-boton{
+        font-size: 1.1rem;
+    }
+    .header-anuncio-2 .header-anuncio-2-container .header-anuncio-2-box {
+        padding: 1rem 1.5rem;
+    }
+    .header-anuncio-2-container .header-anuncio-2-box .enlace-anuncio {
+        padding: 1.5rem;
+    }
+    .header-anuncio-2-container .header-anuncio-2-box .header-anuncio-2-content {
+        width: 550px;
+    }
+    .recientes .recientes-container .recientes-box {
+        height: 450px;
+    }
+    .cards{
+        height: 800px;
+    }
+    .cards .cards-container{
+        position: relative;
+        bottom: 100px;
+    }
+    .cards .cards-container .cards-group {
+        gap: 1.8rem 2rem;
+    }
+    .cards-container .cards-group .cards-box {
+        width: 200px;
+    }
+    .cards-box .cards-content .card-title {
+        font-size: 1.7rem;
+        padding-bottom: 1.7rem;
+    }
+    .cards-box .cards-content .card-boton {
+        padding: 1rem 2rem;
+        font-size: 18px;
+        margin: 1.2rem 0;
+    }
+    .anuncio-grande-container .anuncio-grande-box .anuncio-grande-titulo {
+        font-size: 45px;
+    }
+    .anuncio-grande-container .anuncio-grande-box .anuncio-grande-text {
+        padding: 1.5rem 0 1.5rem 0;
+        font-size: 25px;
+    }
+    .anuncio-grande-container .anuncio-grande-box .anuncio-grande-boton {
+        font-size: 20px;
+        padding: 1rem 1.5rem;
+    }
+    .anuncio-grande .anuncio-grande-container .anuncio-grande-img{
+        width: 325px;
+    }
+    .usuario-fav .usuario-fav-container {
+        padding: 2rem 3rem;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .nav-box .nav-box-content .logo{
+        width: 100%;
+    }
+    .nav-box .nav-links a{
+        display: none;
+    }
+    .nav-search .nav-search-box .img-search {
+        width: 25px;
+        height: auto;
+    }
+    .nav-search .nav-search-box .input-search {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    .header .header-container {
+        padding: 3rem;
+    }
+    .header .header-container .header-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-persona-main .persona-head .imagen-main {
+        width: 110px;
+        height: 110px;
+    }
+    .persona-title {
+        font-size: 22px;
+        margin: 1.2rem 0;
+    }
+    .header-personas .header-persona-main .persona-text {
+        line-height: 1.3;
+    }
+    .imagen-icon {
+        width: 90px;
+        height: 90px;
+    }
+    .header-container .header-content .header-anuncio {
+        margin-left: 0px;
+    }
+    .header-content .header-anuncio .img-anuncio {
+        width: 100px;
+        height: 100px;
+        top: 0%;
+    }
+    .cursos .cursos-container {
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* Estilos para dispositivos móviles */
 }
